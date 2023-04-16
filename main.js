@@ -57,12 +57,13 @@ function game() {
       console.log(round(playerSelection, computerSelection));
     }
     if (playerScore > computerScore) {
-      console.log("You win the game with a score of " + playerScore + " - " + computerScore);
+      alert("You win the game with a score of " + playerScore + " - " + computerScore);
     } else if (playerScore < computerScore) {
-      console.log("The computer wins the game with a score of " + computerScore + " - " + playerScore);
+      alert("The computer wins the game with a score of " + computerScore + " - " + playerScore);
     } else {
-      console.log("It's a tie game with a score of " + playerScore + " - " + computerScore);
+      alert("It's a tie game with a score of " + playerScore + " - " + computerScore);
     }
   }
 
-  game()
+//play game 
+ game()
