@@ -5,13 +5,13 @@ let computerScore = 0;
 function computerChoice() {
     let getRandomValue = (Math.floor(Math.random() * 3))
     if (getRandomValue === 0) {
-        return "rock"
+        return "rock";
     }
     else if (getRandomValue === 1) {
-        return "paper"
+        return "paper";
     }
     else {
-        return "scissors"
+        return "scissors";
     }
 }
 
@@ -32,7 +32,9 @@ function round(playerSelection, computerSelection) {
         (playerSelection === "paper" && computerSelection === "rock") ||
         (playerSelection === "scissors" && computerSelection === "paper") ) {
             playerScore++;
+            alert("You win! The score is " + evaluateScore());
             return "You win! The score is " + evaluateScore();
+           
         } 
         else {
             computerScore++;
