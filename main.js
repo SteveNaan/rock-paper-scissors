@@ -42,11 +42,11 @@ function round(playerSelection, computerSelection) {
         }
 }
 
-function playerChoice() {
-    let playerSelection = prompt("Type Rock, Paper, or Scissors (spelling is important, but capitalization is not):");
-    playerSelection = playerSelection.toLowerCase();
-    return playerSelection;
- }
+// function playerChoice() {
+//     let playerSelection = prompt("Type Rock, Paper, or Scissors (spelling is important, but capitalization is not):");
+//     playerSelection = playerSelection.toLowerCase();
+//     return playerSelection;
+//  }
 
 //Function game(), using previous function inside to play 5 rounds and announce keep score
 // Alert winner or loser at the end
