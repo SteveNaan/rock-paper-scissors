@@ -11,10 +11,9 @@ body {
     color: white;
     background-color: #161b22;
     padding-bottom: 0;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 30px;
     padding-left: 30px;
-    border: 1px solid red;
+    /*border: 5px solid red;*/
 }
 
 .picture {
@@ -23,7 +22,7 @@ body {
     border: 5px solid darkslategray;
     border-radius: 10%;
     margin: 20px;
-    border: 1px solid red;
+    /*border: 5px solid red;*/
 }
 
 .intro {
@@ -32,10 +31,10 @@ body {
     justify-content: center;
     margin:0;
     align-items: center;
-    padding: 30px;
+    padding: 50px;
     color: white;
     background-color: #161b22;
-    border: 1px solid red;
+    /*border: 5px solid red;*/
 }
 
 .choices {     
@@ -45,7 +44,7 @@ body {
     background-color: #161b22;
     color: white;
     padding: 50px;
-    border: 1px solid red;
+    /*border: 5px solid red;*/
 }
 
 .button {
@@ -59,7 +58,7 @@ body {
     box-shadow: 0 2px 4px darkslategray;
     transition: all 0.2s ease;
     color: white;
-    border: 1px solid red;
+   /* border: 5px solid red;*/
 }
 
 button:active {
@@ -72,5 +71,5 @@ button:active {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
+   /* border: 5px solid red;*/
 }
