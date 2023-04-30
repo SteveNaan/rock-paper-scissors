@@ -42,6 +42,7 @@ function round(playerSelection, computerSelection) {
         }
 }
 
+
 // function playerChoice() {
 //     let playerSelection = prompt("Type Rock, Paper, or Scissors (spelling is important, but capitalization is not):");
 //     playerSelection = playerSelection.toLowerCase();
