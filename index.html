@@ -14,22 +14,27 @@
         <img class= "active" src="./images/CRT animated-export.gif" alt ="">
     </div>
     <div class = "intro">
-        <h1 class = "title">SELECT YOUR WEAPON ⚔️</h1>
+        <h1 id="round-result">SELECT YOUR WEAPON ⚔️ FIRST TO 5 WINS!</h1>
+        <h2>Score: <span id="score-tally">👨‍💻 0 - 0 💻</span></h2>
+        <div class="score"> 
+            <h2 id="round-result"></h2>
+        </div>
+          
     </div>
-    <div class = "choices">
-        <div class = "child">
-            <p>ROCK</p>
-            <img class="picture" src="./images/rock-export.gif" alt ="">
+    <div class="choices">
+        <div class="child">
+          <p>ROCK</p>
+          <input type="button" class="picture rock" data-choice="rock">
         </div>
-        <div class = "child">
-            <p>PAPER</p>
-            <img class="picture" src="./images/paper-export.gif" alt ="">
+        <div class="child">
+          <p>PAPER</p>
+          <input type="button" class="picture paper" data-choice="paper">
         </div>
-        <div class = "child">
-            <p>SCISSORS</p>
-            <img class="picture" src="./images/scissors.gif" alt ="">
+        <div class="child">
+          <p>SCISSORS</p>
+          <input type="button" class="picture scissors" data-choice="scissors">
         </div>
-    </div>
+      </div>      
     <body>
         <div class = "footer">
             <img class= "logo" src="./images/Logo png.png" alt ="">
