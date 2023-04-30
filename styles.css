@@ -26,14 +26,14 @@ body {
 }
 
 .picture {
-    width: 150px;
+    width: 100px;
     height:auto;
     margin: 20px;
     /* border: 1px solid red; */
 }
 
 .active {
-    width: 150px;
+    width: 100px;
     height:auto;
     margin-top: 20px;
     background-color: #214a39;
@@ -50,17 +50,12 @@ body {
     /* border: 1px solid red; */
 }
 
-.title {
-    font-weight: 800;
-    font-size:xx-large;
-}
-
 .intro {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 0px;
     align-items: center;
     color: black;
     background-color: #37946e;
@@ -112,7 +107,7 @@ button:active {
 .gif {
   position:absolute;
   background: #214a39;
-  width: 150px;
+  width: 100px;
   height:auto;
   margin-top: 20px;
   border: 5px solid black;
@@ -124,3 +119,35 @@ button:active {
   position: absolute;
   opacity:0;
 }
+
+input.picture {
+    background-size: cover;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+  }
+  
+  input.picture.rock {
+    background-image: url('./images/rock-export.gif');
+  }
+  
+  input.picture.paper {
+    background-image: url('./images/paper-export.gif');
+  }
+  
+  input.picture.scissors {
+    background-image: url('./images/scissors.gif');
+  }
+  
+  h1, h2 { 
+    margin: 10px;
+  }
+
+  #round-result {
+    font-weight: 800;
+    font-size:xx-large;
+  }
